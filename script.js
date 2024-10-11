@@ -27,7 +27,7 @@ window.addEventListener('scroll',function(){
  * todo: dark mode button
  */
 const btn = document.querySelector('.btn');
-const solid = document.querySelector('.fa-solid');
+const solid = document.querySelector('.btn .fa-solid');
 const lightmode = document.querySelectorAll('.light-bg');
 
 if(localStorage.getItem('theme') === 'dark'){
